@@ -38,7 +38,7 @@
       background-image: str-replace($close-icon, str-replace(#{'fill=\'' + $close-color + '\''}, "#", "%23"), str-replace(#{'fill=\'' + color-yiq($color) + '\''}, "#", "%23")); // SEB specific
       opacity: .5;
     }
-    &:not(:disabled):not(.disabled):hover::after, &:not(:disabled):not(.disabled):focus::after {
+    &:not(:disabled):not(.disabled)::after {
       display:none;
     }
   }

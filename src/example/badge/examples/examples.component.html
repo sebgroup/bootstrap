@@ -1,66 +1,68 @@
 <!-- badge as notification in a button -->
 <button class="btn btn-primary">A button<div class="badge badge-danger ml-2">2</div></button>
 <!-- highlight new row in table with badge -->
-<table class="table">
-  <thead>
-    <tr>
-      <th>First name</th>
-      <th>Last name</th>
-      <th>Favorite pet</th>
-      <th>Tags</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="font-weight-medium">
-      <td>Luca <span class="badge badge-success ml-2">New!</span></td>
-      <td>Lucsson</td>
-      <td>Shetland sheepdog</td>
-      <td>
-        <span class="badge badge-close badge-secondary">Dogs
-          <button type="button" class="close" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </span>
-        <span class="badge badge-close badge-secondary ml-2">4 legs
-          <button type="button" class="close" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td>Peter</td>
-      <td>Pan</td>
-      <td>Unicorn</td>
-      <td>
-        <span class="badge badge-close badge-secondary">Mythical
-          <button type="button" class="close" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </span>
-        <span class="badge badge-close badge-secondary ml-2">4 legs
-          <button type="button" class="close" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td>Foo</td>
-      <td>Bar</td>
-      <td>Bulldog</td>
-      <td>
-        <span class="badge badge-close badge-secondary">Dogs
-          <button type="button" class="close" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </span>
-        <span class="badge badge-close badge-secondary ml-2">4 legs
-          <button type="button" class="close" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="overflow-auto mb-3">
+  <table class="table text-nowrap mb-0">
+    <thead>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Favorite pet</th>
+        <th>Tags</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="font-weight-medium">
+        <td>Luca <span class="badge badge-success ml-2">New!</span></td>
+        <td>Lucsson</td>
+        <td>Shetland sheepdog</td>
+        <td>
+          <span class="badge badge-close badge-secondary">Dogs
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </span>
+          <span class="badge badge-close badge-secondary ml-2">4 legs
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Pan</td>
+        <td>Unicorn</td>
+        <td>
+          <span class="badge badge-close badge-secondary">Mythical
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </span>
+          <span class="badge badge-close badge-secondary ml-2">4 legs
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Foo</td>
+        <td>Bar</td>
+        <td>Bulldog</td>
+        <td>
+          <span class="badge badge-close badge-secondary">Dogs
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </span>
+          <span class="badge badge-close badge-secondary ml-2">4 legs
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
