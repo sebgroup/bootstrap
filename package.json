@@ -145,7 +145,7 @@
     "renamer": "^1.1.4",
     "replace": "^1.2.0",
     "rimraf": "^2.7.1",
-    "semantic-release": "^17.3.0",
+    "semantic-release": "^17.4.4",
     "start-server-and-test": "^1.11.6",
     "ts-node": "~7.0.0",
     "tslint": "^6.1.3",
