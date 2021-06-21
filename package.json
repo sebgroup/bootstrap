@@ -109,7 +109,7 @@
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^12.19.7",
     "autoprefixer": "^9.8.6",
-    "backstopjs": "^5.0.6",
+    "backstopjs": "^5.3.4",
     "body-scroll-lock": "^2.7.1",
     "bootstrap": "^4.5.3",
     "clean-css-cli": "^4.2.1",
