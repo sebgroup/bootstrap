@@ -139,7 +139,7 @@
     "postcss-cli": "^6.1.1",
     "prettier": "^2.2.0",
     "pretty-quick": "^3.0.2",
-    "prismjs": "^1.22.0",
+    "prismjs": "^1.24.0",
     "protractor": "~7.0.0",
     "raw-loader": "^0.5.1",
     "renamer": "^1.1.4",
