@@ -89,7 +89,7 @@
     "@sebgroup/fonts": "^1.0.0",
     "@sebgroup/ng-bootstrap": "^1.0.1",
     "@sebgroup/ngx-toastr": "^1.0.0",
-    "core-js": "^2.6.11",
+    "core-js": "^3.15.2",
     "rxjs": "^6.6.3",
     "scrollingelement": "^1.5.2",
     "swe-validation": "^1.0.1",
